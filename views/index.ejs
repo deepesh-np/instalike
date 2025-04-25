@@ -1,0 +1,35 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main page</title>
+  </head>
+  <body>
+    <h1>InstaLike</h1>
+    <div class="post">
+      <% for (let post of posts){ let user = users.find(u => u.id ===
+      post.userId); %>
+
+      <div class="user-details">
+        <div class="avatar">
+          <img src="<%= user.avatar %>" alt="avatar" />
+        </div>
+        <div class="username">
+          <h4><%= user.username %></h4>
+        </div>
+      </div>
+
+      <div class="post-image">
+        <img src="<%= post.image %>" alt="post image" />
+      </div>
+      <div class="caption">
+        <p><%= post.caption %></p>
+      </div>
+
+      <% } %>
+    </div>
+  </body>
+</html>
