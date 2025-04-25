@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>main page</title>
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
     <h1>InstaLike</h1>
@@ -25,6 +26,12 @@
       <div class="post-image">
         <img src="<%= post.image %>" alt="post image" />
       </div>
+      <div class="likes">
+        <%= post.likes.length %>        
+        </div>
+      <div class="comments">
+         
+        </div>
       <div class="caption">
         <p><%= post.caption %></p>
       </div>

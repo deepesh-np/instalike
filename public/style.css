@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fafafa;
+    color: #333;
+  }
+  
+  /* Post Container */
+  .post {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+  
+  /* User Info */
+  .user-details {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #efefef;
+  }
+  
+  .avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .username h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* Post Image */
+  .post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Caption */
+  .caption {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  
+  .caption p {
+    margin: 0;
+    color: #555;
+  }
