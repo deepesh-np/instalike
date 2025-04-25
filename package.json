@@ -1,0 +1,19 @@
+{
+  "name": "instalike",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepesh-np/instalike.git"
+  },
+  "author": "Deepesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepesh-np/instalike/issues"
+  },
+  "homepage": "https://github.com/deepesh-np/instalike#readme",
+  "description": ""
+}
